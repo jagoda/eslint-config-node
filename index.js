@@ -1,4 +1,9 @@
 module.exports = {
+    "env": {
+        "es6": true,
+        "node": true,
+    },
+
     "rules": {
         "comma-dangle": [ 2, "never" ],
         "no-cond-assign": [ 2, "always" ],
